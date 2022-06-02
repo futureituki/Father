@@ -1,0 +1,386 @@
+.pc-nav{
+  display: block;
+}
+#g-nav{
+  display: none;
+}
+.openbtn1{
+  display: none;
+}
+header{
+  height: 80px;
+}
+.header__title{
+  & h1{
+    transform: translate(-50%,30%);
+    top: 70%;
+    left: 15%;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+}
+
+.top{
+  &__container{
+    padding-top: 100px;
+  }
+  &__pc{
+    display: flex;
+    &__content{
+      display: block;
+      background: rgb(0, 0, 0);
+      box-shadow: 0px 0px 10px 0 rgb(228, 228, 228);
+      width: 60%;
+      padding-top: 100px;
+      position: relative;
+      z-index: 10;
+      & h2{
+        font-size: 1.6rem;
+        text-align: center;
+        color: #fff;
+      }
+      & p{
+        font-size: 1rem;
+        text-align: center;
+        margin: 30px 0;
+        color: #fff;
+      }
+    }
+    &__grossary__title{
+      display: block;
+      background: rgb(0, 0, 0);
+      box-shadow: 0px 0px 10px 0 rgb(228, 228, 228);
+      width: 60%;
+      padding-top: 140px;
+      position: relative;
+      z-index: 10;
+      & h2{
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+      }
+      & p{
+        width: 70%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 30px auto;
+        color: #fff;
+      }
+    }
+  }
+  &__img{
+    width: 60%;
+  }
+  &__img2{
+    display: flex;
+    height: 100%;
+    padding-top:0;
+  }
+  &__pc__img{
+    display: block;
+    & img{
+      width: 50%
+    }
+  }
+  &__title{
+    text-align:center;
+    transform:translate(-50%,50%);
+    top: 25%;
+    left: 25%;
+    & h2{
+      font-size: 2rem;
+      line-height: 40px;
+    }
+  }
+}
+
+.man{
+  &__container{
+    width: 90%;
+    margin:0 auto;
+    max-width: 1027px;
+    background: #fff;
+    padding: 80px 0;
+  }
+  &__title{
+    & h3{
+      color: #000;
+      font-size: 2rem;
+      margin-bottom: 80px;
+    }
+  }
+ &__img{
+   & img{
+     transform: rotate(0deg);
+     width: 50%;
+   }
+ }
+ &__txt{
+  position: absolute;
+  width: 40%;
+  top: 0%;
+  right: 5%;
+  & p{
+    font-size: 1.4rem;
+    transform: rotate(0deg);
+    line-height: 40px;
+    color: #000;
+    margin-top: 60px;
+  }
+  & h3{
+    display: block;
+    font-size: 1.7rem;
+  }
+}
+}
+.grossary{
+  background: #fff;
+  &__title{
+    top: 0%;
+    left: 50%;
+    transform: translate(-30%,50%);
+   & h2{
+      display: block;
+      font-size: 2.3rem;
+      letter-spacing: 4px;
+    }
+  & h3{
+    display: none;
+  }
+}
+ &__content{
+   padding: 150px 0 50px 0px;
+  }
+  &__img{
+    text-align: center;
+    & img{
+     width: 60%;
+     border-radius: 30%;
+   }
+ }
+ &__pc{
+   display: flex;
+   align-items: center;
+ }
+ &__content__title{
+  & h4{
+    color: #000;
+    text-align: center;
+  }
+  & p{
+   color: #000;
+   text-align: center;
+  }
+}
+}
+.button__pc{
+  text-align: center;
+  padding-top: 40px ;
+  border-top: 1px solid #000;
+  display: block;
+  & a{
+    font-size: 1.4rem;
+  }
+}
+.pc__title{
+  display: block;
+}
+
+//goruf
+.goruf{
+  &__pc__top{
+    display: block;
+    position: relative;
+    & span{
+      position: absolute;
+      -ms-writing-mode: tb-rl;
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+      font-size: 2rem;
+      letter-spacing: 5px;  
+      top: 50%;
+      left: 5%;
+    }
+  }
+  &__pc__title{
+    & h2{
+      font-size: 2.3rem;
+      text-align: center;
+      margin: 70px 0;
+    }
+  }
+  &__pc__img{
+    width: 80%;
+    margin: 0 0 0 auto;
+    & img{
+      width: 100%;
+    }
+  }
+  &__bg__container{
+    display: none;
+  }
+  &__teacher{
+    padding: 0px;
+    &:nth-of-type(1){
+      padding: 0px 0;
+    }
+    & h3{
+       font-size:2rem;
+       font-weight:600 ;
+       margin: 30px 0;
+       padding-top: 50px;
+       color: #000;
+    }
+    &__content{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 50px;
+    }
+    &__img{
+      margin-top: 40px;
+      width: 50%;
+    }
+    &__txt{
+      width: 70%;
+      margin-left: 30px;
+      & h4{
+        margin: 20px 0;
+        font-size: 1.8rem;
+        color: #000;
+      }
+      & p{
+        font-size: 1.5rem;
+        margin-top: 20px;
+        font-weight: 200;
+        color: rgb(29, 29, 29);
+      }
+    }
+  }
+  &__bg{
+    background-image: url("");
+    padding-bottom: 50px;
+  }
+}
+
+//footer
+.footer{
+  &__pc{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+  }
+    &__button{
+      width: 30%;
+      margin-left: 10%;
+    }
+  &__title{
+    & h3{
+      font-size: 2.3rem;
+    }
+    &::before{ 
+      width:5rem;
+      content: '';
+      border-top: 2px solid #fff;
+    }
+    &::after{
+      width:5rem;
+      content: '';
+      border-top: 2px solid #fff;
+    }
+  }
+}
+
+.teaching{
+  padding-bottom: 150px;
+  &__container{
+    transform: translateY(20%);
+  }
+  &__list{
+    margin: 50px auto;
+    width: 90%;
+    height: 100%;
+    & ul{
+      & li{
+        font-size: 2rem;
+      }
+    }
+  }
+  &__list__box{
+    display: flex;
+    align-items: center;
+  }
+  &__box{
+    margin-right: 40px;
+  }
+  &__title{
+    & h3{
+      font-size: 2.3rem;
+    }
+  }
+}
+.introduction{
+  padding: 50px 0;
+   &__title{
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1027px;
+    & h2{
+      font-size: 2.3rem;
+      letter-spacing: 4px;
+    }
+  }
+  &__pc__content{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin:70px auto;
+    max-width: 1027px;
+  }
+  &__content{
+    display: none;
+  }
+  &__pc__img{
+    & img{
+      width: 80%;
+    }
+  }
+  &__pc__txt{
+    & p{
+      color: #fff;
+      font-size: 1.6rem;
+    }
+    & h3{
+      font-size: 1.8rem;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+  }
+}
+.introduction-catchcopy{
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  font-size: 1.6rem;
+  letter-spacing: 5px;
+  color: #fff;
+  line-height: 40px;
+  transform: translate(0%,-90%);
+}
+
+
+//slick
+.slick{
+  &__title{
+    width: 80%;
+    margin: 70px auto;
+    & h2{
+      font-size: 2.5rem;
+      letter-spacing: 4px;
+    }
+  }
+}
